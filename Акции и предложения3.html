@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/actions3.css">
+    <link rel="stylesheet" href="css/special.css">
+</head>
+<body>
+    <header class="head">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+        <form action="" class="d-flex">
+            <input class="form-control me-2 place_for_search" type="text" id="text-to-find" value="" placeholder="Что ищем?" autofocus>
+            <button class="btn btn-info button_for_search" type="submit" onclick="javascript: FindOnPage('text-to-find',true);"  value="Поиск" title="Начать поиск">Поиск</button>
+        </form>
+        <span>Телефон горячей линии: 8 017 239 06 09</span>
+    </header>
+    <main>
+        <aside>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Наши АЗС.html">Наши АЗС</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Фотогалерея.html">Фотогалерея</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Наши кафе и магазины.html">Наши кафе и магазины</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Специальные предложения.html">Специальные предложения</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Программа лояльности.html">Программа лояльности</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Акции и предложения.html">Акции и предложения</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Новости.html">Новости</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Подарочная карта.html">Подарочная карта</a></li>
+                <li class="list-group-item list-group-item-action list-group-item-primary"><a href="Качество топлива.html">Качество топлива</a></li>
+            </ul>
+        </aside>
+        <div class="actions">
+            <h4>Акции и предложения</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><img src="img/food/food13.jpg" class="food1" alt="" class="banner"></a>
+                        <h5>Ароматизатор Dr.Marcus Sonic в ассортименте</h4>
+                        <span class="date">01 мая 2022 - 31 мая 2022</span><br>
+                        <span>Акция!</span>
+                    </div>
+                    <div class="col-4">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><img src="img/food/food14.jpg" class="food2" alt="" class="banner"></a>
+                        <h5>Конструктор инерционный Great Friend</h4>
+                        <span class="date">01 мая 2022 - 31 мая 2022</span><br>
+                        <span>Специальная цена!</span>
+                    </div>
+                    <div class="col-4">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><img src="img/food/food15.jpg" class="food3" alt="" class="banner"></a>
+                        <h5>Аксесуары для телефона WIIIX в ассортименте</h4>
+                        <span>01 мая 2022 - 31 мая 2022</span><br>
+                        <span>-30%</span>
+                    </div>
+                    <div class="col-4">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><img src="img/food/food16.jpg" class="food4" alt="" class="banner"></a>
+                        <h5>Чехол на руль ПВХ PILOT 1065</h4>
+                        <span>01 мая 2022 - 31 мая 2022</span><br>
+                        <span>Специальная цена!</span> 
+                    </div>
+                    <div class="col-4">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><img src="img/food/food17.jpg" class="food4" alt="" class="banner"></a>
+                        <h5>Моторное масло ONZOIL SAE 0,9л. и 4,5л.</h4>
+                        <span>01 мая 2022 - 31 мая 2022</span><br>
+                        <span>-25%</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="staticBackdropLabel">Ароматизатор Dr.Marcus Sonic в ассортименте</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/actions/banner14.jpg" alt="" class="banner">
+                    <p>Весь май покупайте ароматизатор воздуха Dr.Marcus Sonic в ассортименте со скидкой!</p>
+                    <p>Предложение действительно только при наличии товара на АЗС «Газпромнефть» с 01.05.2022 по 31.05.2022. Внешний вид товара может отличаться от представленного на сайте. Баллы по программе лояльности «Разам з намi» за покупку акционного товара не начисляются.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="staticBackdropLabel">Конструктор инерционный Great Friend</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/actions/banner15.jpg" alt="" class="banner">
+                    <p>Конструктор инерционный GREAT FRIEND SL123-143, SL123-145 по специальной цене!</p>
+                    <p>Предложение действительно только при наличии товара на АЗС «Газпромнефть» с 01.05.2022 по 31.05.2022.  Внешний вид товара может отличаться от представленного на сайте. Баллы по программе лояльности «Разам з намi» за покупку акционного товара не начисляются.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="staticBackdropLabel">Аксесуары для телефона WIIIX в ассортименте</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/actions/banner16.jpg" alt="" class="banner">
+                    <p>Аксессуары для телефона WIIIX в ассортименте со скидкой!</p>
+                    <p>Предложение действительно только при наличии товара на АЗС «Газпромнефть» с 01.05.2022 по 31.05.2022. Внешний вид товара может отличаться от представленного на сайте. Баллы по программе лояльности «Разам з намi» за покупку акционного товара не начисляются.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="staticBackdropLabel">Чехол на руль ПВХ PILOT 1065</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/actions/banner17.jpg" alt="" class="banner">
+                    <p>Чехол на руль ПВХ Pilot 1065 по специальной цене !</p>
+                    <p>Предложение действительно только при наличии товара на АЗС «Газпромнефть» С 01.05.2022 по 31.05.2022.  Внешний вид товара может отличаться от представленного на сайте. Баллы по программе лояльности «Разам з намi» за покупку акционного товара не начисляются.
+                    </p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="staticBackdropLabel">Моторное масло ONZOIL SAE 0,9л. и 4,5л.</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/actions/banner18.jpg" alt="">
+                    <p>Только в мае покупайте моторное масло ONZOIL SAE 10W-40 Optimal SG\CF или TURBO DIESEL  LUX CF-4   0,9\4,5 л. - М1 со скидкой -40 % </p>
+                    <p>Предложение действительно только при наличии товара на АЗС «Газпромнефть» с 01.05.2022 по 31.05.2022.  Внешний вид товара может отличаться от представленного на сайте. Подробные условия акции уточняйте у персонала АЗС</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <nav aria-label="Page navigation example" class="pages">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="Акции и предложения.html">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="Акции и предложения.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="Акции и предложения2.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="Акции и предложения3.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="Акции и предложения3.html">Next</a></li>
+            </ul>
+        </nav>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
