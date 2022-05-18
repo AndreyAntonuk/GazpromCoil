@@ -1,0 +1,23 @@
+.news{
+    margin-top: -445px;
+    margin-left: 350px;
+}
+
+.col-4{
+    margin-left: -10px;
+}
+
+.news1, .news2, .news3, .news4, .news5, .news6{
+    border: 1px solid black;
+}
+
+.pages{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.actions-list{
+    margin-left: -10px;
+}
+
+

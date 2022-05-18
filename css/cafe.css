@@ -1,0 +1,21 @@
+.cafe{
+    margin-top: -445px;
+    margin-left: 350px;
+}
+
+.carousel{
+    margin-left: 350px;
+}
+
+.d-block{
+    width: 80%;
+    height: 400px;
+}
+
+.carousel-indicators{
+    margin-left: -10px;
+}
+
+span a{
+    text-decoration: none;
+}
